@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from 'react'; // libreria interfaz grafica
+import ReactDOM from 'react-dom/client'; // Ayuda a trabajar react con el DOM
+import './index.css'; // Importamos los estilos para el index
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render/* recibir etiquetas */(
   <React.StrictMode>
     <App />
   </React.StrictMode>
